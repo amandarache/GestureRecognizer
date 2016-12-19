@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:paddingTop="220dp"
+    android:paddingBottom="210dp"
+    android:background="#11CFC7"
+    >
+
+    <Button
+        android:layout_width="157dp"
+        android:layout_height="wrap_content"
+        android:onClick="startButton"
+        android:text="Start"
+        android:layout_gravity="center_horizontal"
+        android:background="#10B0A9"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout>
